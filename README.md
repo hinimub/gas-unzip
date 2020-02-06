@@ -9,5 +9,5 @@ By omitting some header analysis processing that is not necessary for decompress
 
 # Method
 ## unzip (blob, string)
-Basically, it is the same as [`unzip`] of UnzipGs (https://github.com/tanaikech/UnzipGs#unzip), but pass` string` instead of `object` in the second argument. \
+Basically, it is the same as [`unzip`](https://github.com/tanaikech/UnzipGs#unzip) of UnzipGs , but pass` string` instead of `object` in the second argument. \
 Also, the processing when the second argument is omitted is not implemented at present.
