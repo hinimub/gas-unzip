@@ -188,7 +188,7 @@ function unzip(blob, password) {
             /*---------- updateKeys ----------*/
               key_0 = CRC32$Table[(key_0 ^ password.charCodeAt(i)) & 0xff] ^ (key_0 >>> 8)
               key_1 =
-                (((((key_1 + (key_0 & 0xff)) * 20173 >>> 0) * 6681) >>> 0) + 1) >>> 0;
+                ((((key_1 + (key_0 & 0xff)) * 20173 >>> 0) * 6681) + 1) >>> 0;
               key_2 = CRC32$Table[(key_2 ^ key_1 >>> 24) & 0xff] ^ (key_2 >>> 8);
             /*---------- END updateKeys ----------*/
           }
@@ -203,7 +203,7 @@ function unzip(blob, password) {
               /*---------- END getByte ----------*/
               key_0 = CRC32$Table[(key_0 ^ input[ip++] ^ /* return getBytes */ ((tmp * (tmp ^ 1)) >>> 8) & 0xff) & 0xff] ^ (key_0 >>> 8);
               key_1 =
-               (((((key_1 + (key_0 & 0xff)) * 20173 >>> 0) * 6681) >>> 0) + 1) >>> 0;
+               ((((key_1 + (key_0 & 0xff)) * 20173 >>> 0) * 6681) + 1) >>> 0;
               key_2 = CRC32$Table[(key_2 ^ key_1 >>> 24) & 0xff] ^ (key_2 >>> 8);
             /*---------- END updateKeys ----------*/
           /*---------- END decode ----------*/
@@ -215,7 +215,7 @@ function unzip(blob, password) {
               /*---------- END getByte ----------*/
               key_0 = CRC32$Table[(key_0 ^ input[ip++] ^ /* return getBytes */ ((tmp * (tmp ^ 1)) >>> 8) & 0xff) & 0xff] ^ (key_0 >>> 8);
               key_1 =
-                (((((key_1 + (key_0 & 0xff)) * 20173 >>> 0) * 6681) >>> 0) + 1) >>> 0;
+                ((((key_1 + (key_0 & 0xff)) * 20173 >>> 0) * 6681) + 1) >>> 0;
               key_2 = CRC32$Table[(key_2 ^ key_1 >>> 24) & 0xff] ^ (key_2 >>> 8);
             /*---------- END updateKeys ----------*/
           /*---------- END decode ----------*/
@@ -227,7 +227,7 @@ function unzip(blob, password) {
               /*---------- END getByte ----------*/
               key_0 = CRC32$Table[(key_0 ^ input[ip++] ^ /* return getBytes */ ((tmp * (tmp ^ 1)) >>> 8) & 0xff) & 0xff] ^ (key_0 >>> 8);
               key_1 =
-                (((((key_1 + (key_0 & 0xff)) * 20173 >>> 0) * 6681) >>> 0) + 1) >>> 0;
+                ((((key_1 + (key_0 & 0xff)) * 20173 >>> 0) * 6681) + 1) >>> 0;
               key_2 = CRC32$Table[(key_2 ^ key_1 >>> 24) & 0xff] ^ (key_2 >>> 8);
             /*---------- END updateKeys ----------*/
           /*---------- END decode ----------*/
@@ -239,7 +239,7 @@ function unzip(blob, password) {
               /*---------- END getByte ----------*/
               key_0 = CRC32$Table[(key_0 ^ input[ip++] ^ /* return getBytes */ ((tmp * (tmp ^ 1)) >>> 8) & 0xff) & 0xff] ^ (key_0 >>> 8);
               key_1 =
-                (((((key_1 + (key_0 & 0xff)) * 20173 >>> 0) * 6681) >>> 0) + 1) >>> 0;
+                ((((key_1 + (key_0 & 0xff)) * 20173 >>> 0) * 6681) + 1) >>> 0;
               key_2 = CRC32$Table[(key_2 ^ key_1 >>> 24) & 0xff] ^ (key_2 >>> 8);
             /*---------- END updateKeys ----------*/
           /*---------- END decode ----------*/
@@ -251,7 +251,7 @@ function unzip(blob, password) {
               /*---------- END getByte ----------*/
               key_0 = CRC32$Table[(key_0 ^ input[ip++] ^ /* return getBytes */ ((tmp * (tmp ^ 1)) >>> 8) & 0xff) & 0xff] ^ (key_0 >>> 8);
               key_1 =
-                (((((key_1 + (key_0 & 0xff)) * 20173 >>> 0) * 6681) >>> 0) + 1) >>> 0;
+                ((((key_1 + (key_0 & 0xff)) * 20173 >>> 0) * 6681) + 1) >>> 0;
               key_2 = CRC32$Table[(key_2 ^ key_1 >>> 24) & 0xff] ^ (key_2 >>> 8);
             /*---------- END updateKeys ----------*/
           /*---------- END decode ----------*/
@@ -263,7 +263,7 @@ function unzip(blob, password) {
               /*---------- END getByte ----------*/
               key_0 = CRC32$Table[(key_0 ^ input[ip++] ^ /* return getBytes */ ((tmp * (tmp ^ 1)) >>> 8) & 0xff) & 0xff] ^ (key_0 >>> 8);
               key_1 =
-                (((((key_1 + (key_0 & 0xff)) * 20173 >>> 0) * 6681) >>> 0) + 1) >>> 0;
+                ((((key_1 + (key_0 & 0xff)) * 20173 >>> 0) * 6681) + 1) >>> 0;
               key_2 = CRC32$Table[(key_2 ^ key_1 >>> 24) & 0xff] ^ (key_2 >>> 8);
             /*---------- END updateKeys ----------*/
           /*---------- END decode ----------*/
@@ -275,7 +275,7 @@ function unzip(blob, password) {
               /*---------- END getByte ----------*/
               key_0 = CRC32$Table[(key_0 ^ input[ip++] ^ /* return getBytes */ ((tmp * (tmp ^ 1)) >>> 8) & 0xff) & 0xff] ^ (key_0 >>> 8);
               key_1 =
-                (((((key_1 + (key_0 & 0xff)) * 20173 >>> 0) * 6681) >>> 0) + 1) >>> 0;
+                ((((key_1 + (key_0 & 0xff)) * 20173 >>> 0) * 6681) + 1) >>> 0;
               key_2 = CRC32$Table[(key_2 ^ key_1 >>> 24) & 0xff] ^ (key_2 >>> 8);
             /*---------- END updateKeys ----------*/
           /*---------- END decode ----------*/
@@ -287,7 +287,7 @@ function unzip(blob, password) {
               /*---------- END getByte ----------*/
               key_0 = CRC32$Table[(key_0 ^ input[ip++] ^ /* return getBytes */ ((tmp * (tmp ^ 1)) >>> 8) & 0xff) & 0xff] ^ (key_0 >>> 8);
               key_1 =
-                (((((key_1 + (key_0 & 0xff)) * 20173 >>> 0) * 6681) >>> 0) + 1) >>> 0;
+                ((((key_1 + (key_0 & 0xff)) * 20173 >>> 0) * 6681) + 1) >>> 0;
               key_2 = CRC32$Table[(key_2 ^ key_1 >>> 24) & 0xff] ^ (key_2 >>> 8);
             /*---------- END updateKeys ----------*/
           /*---------- END decode ----------*/
@@ -299,7 +299,7 @@ function unzip(blob, password) {
               /*---------- END getByte ----------*/
               key_0 = CRC32$Table[(key_0 ^ input[ip++] ^ /* return getBytes */ ((tmp * (tmp ^ 1)) >>> 8) & 0xff) & 0xff] ^ (key_0 >>> 8);
               key_1 =
-                (((((key_1 + (key_0 & 0xff)) * 20173 >>> 0) * 6681) >>> 0) + 1) >>> 0;
+                ((((key_1 + (key_0 & 0xff)) * 20173 >>> 0) * 6681) + 1) >>> 0;
               key_2 = CRC32$Table[(key_2 ^ key_1 >>> 24) & 0xff] ^ (key_2 >>> 8);
             /*---------- END updateKeys ----------*/
           /*---------- END decode ----------*/
@@ -311,7 +311,7 @@ function unzip(blob, password) {
               /*---------- END getByte ----------*/
               key_0 = CRC32$Table[(key_0 ^ input[ip++] ^ /* return getBytes */ ((tmp * (tmp ^ 1)) >>> 8) & 0xff) & 0xff] ^ (key_0 >>> 8);
               key_1 =
-                (((((key_1 + (key_0 & 0xff)) * 20173 >>> 0) * 6681) >>> 0) + 1) >>> 0;
+                ((((key_1 + (key_0 & 0xff)) * 20173 >>> 0) * 6681) + 1) >>> 0;
               key_2 = CRC32$Table[(key_2 ^ key_1 >>> 24) & 0xff] ^ (key_2 >>> 8);
             /*---------- END updateKeys ----------*/
           /*---------- END decode ----------*/
@@ -323,7 +323,7 @@ function unzip(blob, password) {
               /*---------- END getByte ----------*/
               key_0 = CRC32$Table[(key_0 ^ input[ip++] ^ /* return getBytes */ ((tmp * (tmp ^ 1)) >>> 8) & 0xff) & 0xff] ^ (key_0 >>> 8);
               key_1 =
-                (((((key_1 + (key_0 & 0xff)) * 20173 >>> 0) * 6681) >>> 0) + 1) >>> 0;
+                ((((key_1 + (key_0 & 0xff)) * 20173 >>> 0) * 6681) + 1) >>> 0;
               key_2 = CRC32$Table[(key_2 ^ key_1 >>> 24) & 0xff] ^ (key_2 >>> 8);
             /*---------- END updateKeys ----------*/
           /*---------- END decode ----------*/
@@ -335,7 +335,7 @@ function unzip(blob, password) {
               /*---------- END getByte ----------*/
               key_0 = CRC32$Table[(key_0 ^ input[ip++] ^ /* return getBytes */ ((tmp * (tmp ^ 1)) >>> 8) & 0xff) & 0xff] ^ (key_0 >>> 8);
               key_1 =
-               (((((key_1 + (key_0 & 0xff)) * 20173 >>> 0) * 6681) >>> 0) + 1) >>> 0;
+               ((((key_1 + (key_0 & 0xff)) * 20173 >>> 0) * 6681) + 1) >>> 0;
               key_2 = CRC32$Table[(key_2 ^ key_1 >>> 24) & 0xff] ^ (key_2 >>> 8);
             /*---------- END updateKeys ----------*/
           /*---------- END decode ----------*/
@@ -354,18 +354,17 @@ function unzip(blob, password) {
         /*---------- END putlocal (Info-ZIP) ----------*/
 
         // decryption
-        var j = output.length;
-        for (i = ip, il = ip + length; i < il; ++i, ++j) {
+        for (i = output.length; length--; ++i, ++ip) {
           /*---------- decode ----------*/
             /*---------- updateKeys ----------*/
               /*---------- getByte ----------*/
                 /** @type {number} */
                 tmp = ((key_2 & 0xffff) | 2);
               /*---------- END getByte ----------*/
-              output[j] = input[i] ^ ((tmp * (tmp ^ 1)) >>> 8) & 0xff;
-              key_0 = CRC32$Table[(key_0 ^ output[j]) & 0xff] ^ (key_0 >>> 8);
+              output[i] = input[ip] ^ ((tmp * (tmp ^ 1)) >>> 8) & 0xff;
+              key_0 = CRC32$Table[(key_0 ^ output[i]) & 0xff] ^ (key_0 >>> 8);
               key_1 =
-                (((((key_1 + (key_0 & 0xff)) * 20173 >>> 0) * 6681) >>> 0) + 1) >>> 0;
+                ((((key_1 + (key_0 & 0xff)) * 20173 >>> 0) * 6681) + 1) >>> 0;
               key_2 = CRC32$Table[(key_2 ^ key_1 >>> 24) & 0xff] ^ (key_2 >>> 8);
             /*---------- END updateKeys ----------*/
           /*---------- END decode ----------*/
