@@ -20,3 +20,18 @@ identifier.
 ## unzip (blob, string)
 Basically, it is the same as [`unzip`](https://github.com/tanaikech/UnzipGs#unzip) of UnzipGs , but pass` string` instead of `object` in the second argument. \
 Also, the processing when the second argument is omitted is not implemented at present.
+
+# Run Time (Averages in 5 times)
+File Name:test.zip  
+File Size:5.2MB  
+Password:q94t]\[f)ZaY!9#l:&S:0Xx%]'t"xf#fX  
+Code:
+```javascript
+function test() {
+  var myFile = DriveApp.getFileById("1U-8LHWtUoPVIVsiIGW-xYRPt6hIIzMsd").getBlob();
+  var res = gasunzip.unzip(myFile, "q94t][f)ZaY!9#l:&S:0Xx%]'t\"xf#fX")
+}
+```
+
+Apps Script V8    :  9.8894sec  
+Apps Script Legacy:243.5902sec
